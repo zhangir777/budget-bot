@@ -1,0 +1,30 @@
+[project]
+name = "budget-bot"
+version = "1.0.0"
+description = "Telegram bot for personal or small-business budget tracking: add expenses in one line, monthly limits, Excel export (aiogram 3, SQLite)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiogram>=3.31",
+    "openpyxl>=3.1",
+    "python-dotenv>=1.2.4",
+]
+
+[dependency-groups]
+dev = ["pytest>=9.1", "ruff>=0.17"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["bot"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
