@@ -4,6 +4,8 @@
 
 **Hire me:** [Upwork](https://www.upwork.com/freelancers/~012c68804f9b4d4550) · [Fiverr](https://www.fiverr.com/akhmetov_zhangi) · [Telegram @ZhangirAkhmetov](https://t.me/ZhangirAkhmetov)
 
+**[Watch the demo video (mp4)](docs/demo.mp4)**
+
 **Live demo:** [@zhangir_budget_bot](https://t.me/zhangir_budget_bot) (runs on my demo server)
 
 A Telegram bot for personal or small-business budget tracking. Write one line, the bot saves it:
